@@ -1,0 +1,26 @@
+@import '../../utils/mixins';
+
+.b-button {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  box-sizing: border-box;
+  height: 40px;
+
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+  background-color: #001122;
+  font: 20px $main-font;
+  border: 1px solid white;
+  padding: 0 15px;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+

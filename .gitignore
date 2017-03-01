@@ -1,0 +1,10 @@
+.idea
+*.iml
+out
+gen
+node_modules
+npm-debug.log
+/data/
+/build/
+coverage/
+locales/

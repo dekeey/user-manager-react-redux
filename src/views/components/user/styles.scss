@@ -1,0 +1,22 @@
+@import "../../utils/mixins";
+
+.b-user {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  padding: 15px;
+  border: 1px solid gray;
+  position: relative;
+  font: 18px $main-font;
+
+}
+
+.b-user__action-buttons {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
